@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { heroImages } from "../../helpers/heroImages";
 import "./HeroCard.css";
 
 const HeroCard = ({
@@ -13,7 +14,7 @@ const HeroCard = ({
   return (
     <Link to={`./hero/${id}`} className="my-card">
       <img
-        src={`./assets/heroes/${id}.jpg`}
+        src={heroImages(`./${id}.jpg`).default}
         className="img img-responsive"
         alt={superhero}
       />
