@@ -1,4 +1,3 @@
-import { stringify } from "query-string";
 import React, { useEffect, useReducer } from "react";
 import { AuthContext } from "./auth/AuthContext";
 import authReducer from "./auth/authReducer";
