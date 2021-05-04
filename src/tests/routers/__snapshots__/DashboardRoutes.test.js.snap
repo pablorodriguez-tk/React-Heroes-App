@@ -1,0 +1,533 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <DashboardRoutes/> Debe mostrarse correctamente 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <div
+      className="container"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        Asociaciones
+      </a>
+      <div
+        className="navbar-collapse"
+      >
+        <div
+          className="navbar-nav"
+        >
+          <a
+            aria-current="page"
+            className="nav-item nav-link active"
+            href="/marvel"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Marvel
+          </a>
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </div>
+      </div>
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          Pablo
+        </span>
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container mt-2"
+  >
+    <div>
+      <h1>
+        Marvel Screen
+      </h1>
+      <hr />
+      <div
+        className="card-columns animate__animated animate__fadeIn"
+      >
+        <a
+          className="my-card"
+          href="/hero/marvel-spider"
+          onClick={[Function]}
+        >
+          <img
+            alt="Spider Man"
+            className="img img-responsive"
+            src="./assets/heroes/marvel-spider.jpg"
+          />
+          <div
+            className="profile-name"
+          >
+            Spider Man
+          </div>
+          <div
+            className="profile-position"
+          >
+            Peter Parker
+          </div>
+          <div
+            className="profile-overview"
+          >
+            <div
+              className="profile-overview"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-ms-4"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Amazing Fantasy #15
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          className="my-card"
+          href="/hero/marvel-captain"
+          onClick={[Function]}
+        >
+          <img
+            alt="Captain America"
+            className="img img-responsive"
+            src="./assets/heroes/marvel-captain.jpg"
+          />
+          <div
+            className="profile-name"
+          >
+            Captain America
+          </div>
+          <div
+            className="profile-position"
+          >
+            Steve Rogers
+          </div>
+          <div
+            className="profile-overview"
+          >
+            <div
+              className="profile-overview"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-ms-4"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Captain America Comics #1
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          className="my-card"
+          href="/hero/marvel-iron"
+          onClick={[Function]}
+        >
+          <img
+            alt="Iron Man"
+            className="img img-responsive"
+            src="./assets/heroes/marvel-iron.jpg"
+          />
+          <div
+            className="profile-name"
+          >
+            Iron Man
+          </div>
+          <div
+            className="profile-position"
+          >
+            Tony Stark
+          </div>
+          <div
+            className="profile-overview"
+          >
+            <div
+              className="profile-overview"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-ms-4"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Tales of Suspense #39
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          className="my-card"
+          href="/hero/marvel-thor"
+          onClick={[Function]}
+        >
+          <img
+            alt="Thor"
+            className="img img-responsive"
+            src="./assets/heroes/marvel-thor.jpg"
+          />
+          <div
+            className="profile-name"
+          >
+            Thor
+          </div>
+          <div
+            className="profile-position"
+          >
+            Thor Odinson
+          </div>
+          <div
+            className="profile-overview"
+          >
+            <div
+              className="profile-overview"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-ms-4"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Journey into Myster #83
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          className="my-card"
+          href="/hero/marvel-hulk"
+          onClick={[Function]}
+        >
+          <img
+            alt="Hulk"
+            className="img img-responsive"
+            src="./assets/heroes/marvel-hulk.jpg"
+          />
+          <div
+            className="profile-name"
+          >
+            Hulk
+          </div>
+          <div
+            className="profile-position"
+          >
+            Bruce Banner
+          </div>
+          <div
+            className="profile-overview"
+          >
+            <div
+              className="profile-overview"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-ms-4"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    The Incredible Hulk #1
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          className="my-card"
+          href="/hero/marvel-wolverine"
+          onClick={[Function]}
+        >
+          <img
+            alt="Wolverine"
+            className="img img-responsive"
+            src="./assets/heroes/marvel-wolverine.jpg"
+          />
+          <div
+            className="profile-name"
+          >
+            Wolverine
+          </div>
+          <div
+            className="profile-position"
+          >
+            James Howlett
+          </div>
+          <div
+            className="profile-overview"
+          >
+            <div
+              className="profile-overview"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-ms-4"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    The Incredible Hulk #180
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          className="my-card"
+          href="/hero/marvel-daredevil"
+          onClick={[Function]}
+        >
+          <img
+            alt="Daredevil"
+            className="img img-responsive"
+            src="./assets/heroes/marvel-daredevil.jpg"
+          />
+          <div
+            className="profile-name"
+          >
+            Daredevil
+          </div>
+          <div
+            className="profile-position"
+          >
+            Matthew Michael Murdock
+          </div>
+          <div
+            className="profile-overview"
+          >
+            <div
+              className="profile-overview"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-ms-4"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Daredevil #1
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          className="my-card"
+          href="/hero/marvel-hawkeye"
+          onClick={[Function]}
+        >
+          <img
+            alt="Hawkeye"
+            className="img img-responsive"
+            src="./assets/heroes/marvel-hawkeye.jpg"
+          />
+          <div
+            className="profile-name"
+          >
+            Hawkeye
+          </div>
+          <div
+            className="profile-position"
+          >
+            Clinton Francis Barton
+          </div>
+          <div
+            className="profile-overview"
+          >
+            <div
+              className="profile-overview"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-ms-4"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Tales of Suspense #57
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          className="my-card"
+          href="/hero/marvel-cyclops"
+          onClick={[Function]}
+        >
+          <img
+            alt="Cyclops"
+            className="img img-responsive"
+            src="./assets/heroes/marvel-cyclops.jpg"
+          />
+          <div
+            className="profile-name"
+          >
+            Cyclops
+          </div>
+          <div
+            className="profile-position"
+          >
+            Scott Summers
+          </div>
+          <div
+            className="profile-overview"
+          >
+            <div
+              className="profile-overview"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-ms-4"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    X-Men #1
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          className="my-card"
+          href="/hero/marvel-silver"
+          onClick={[Function]}
+        >
+          <img
+            alt="Silver Surfer"
+            className="img img-responsive"
+            src="./assets/heroes/marvel-silver.jpg"
+          />
+          <div
+            className="profile-name"
+          >
+            Silver Surfer
+          </div>
+          <div
+            className="profile-position"
+          >
+            Norrin Radd
+          </div>
+          <div
+            className="profile-overview"
+          >
+            <div
+              className="profile-overview"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-ms-4"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    The Fantastic Four #48
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>,
+]
+`;
