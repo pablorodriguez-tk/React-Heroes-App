@@ -40,6 +40,14 @@ export const Navbar = () => {
           >
             Logout
           </NavLink>
+          <NavLink
+            activeClassName="active"
+            className="nav-item nav-link"
+            exact
+            to="/search"
+          >
+            Search
+          </NavLink>
         </ul>
       </div>
     </nav>

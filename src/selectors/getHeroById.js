@@ -1,7 +1,7 @@
 import { heroes } from "../data/heroes";
 
-const getHeroesById = ({ id }) => {
+const getHeroById = (id) => {
   return heroes.find((hero) => hero.id === id);
 };
 
-export default getHeroesById;
+export default getHeroById;
